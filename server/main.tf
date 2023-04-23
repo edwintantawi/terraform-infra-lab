@@ -1,7 +1,7 @@
 resource "google_compute_instance" "web_server" {
   name         = var.instance_name
   description  = "http web server"
-  zone         = "us-central1-c"
+  zone         = var.instance_zone
   machine_type = "e2-micro"
   tags         = ["http-server"]
 

@@ -7,7 +7,7 @@ resource "google_compute_network" "web_server" {
 resource "google_compute_subnetwork" "web_server" {
   name          = var.subnetwork_name
   network       = google_compute_network.web_server.self_link
-  region        = "us-central1"
+  region        = var.network_region
   ip_cidr_range = "10.0.0.0/29"
 }
 
