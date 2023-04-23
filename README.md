@@ -17,9 +17,9 @@ terraform init
 By adding variables in the `variables.tfvars` file in the project root, with the variables below:
 
 ```
-project_id = '<Google Cloud Project ID>';
-project_region = '<Google Cloud Region | (us-central1)>';
-project_zone = '<Google Cloud Zone | (us-central1-c)>';
+project_id = "<Google Cloud Project ID>";
+project_region = "<Google Cloud Region | (us-central1)>";
+project_zone = "<Google Cloud Zone | (us-central1-c)>";
 ```
 
 ### Terraform Plan
