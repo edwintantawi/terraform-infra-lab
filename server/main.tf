@@ -3,7 +3,7 @@ resource "google_compute_instance" "web_server" {
   description  = "http web server"
   zone         = "us-central1-c"
   machine_type = "e2-micro"
-  tags         = ["http-web-server"]
+  tags         = ["http-server"]
 
   boot_disk {
     auto_delete = true
