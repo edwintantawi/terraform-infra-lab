@@ -7,7 +7,6 @@ resource "google_compute_instance" "web_server" {
 
   boot_disk {
     auto_delete = true
-    device_name = "tf-web-server-boot-disk"
 
     initialize_params {
       image = "debian-cloud/debian-11"
